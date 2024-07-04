@@ -1,4 +1,5 @@
 import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import argparse
 
 import torch
@@ -6,7 +7,6 @@ from omegaconf import OmegaConf
 
 from utils.logger_utils import setup_logger
 from utils.utils import set_seeds
-
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
