@@ -6,9 +6,9 @@
     "configurations": [
         {
             "name": "Python Debugger: Current File with Arguments",
-            "env": [
-                "export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890",
-            ],
+            // "env": [
+            //     "CUDA_VISIBLE_DEVICES":"0",
+            // ],
             "type": "debugpy",
             "request": "launch",
             "program": "main.py",
@@ -16,10 +16,11 @@
             "args": [
                 "--config",
                 "configs/sdxl_4096x4096.yaml",
+                // "configs/sd2.1_2048x2048.yaml",
                 "--log_dir",
                 "log",
                 "--prompt",
-                "a monkey types on a typer, and sits in the chair.",
+                "a portrait of chinese beauty in red suite, and she is in the middle of the photo, in the forest whith yellow leaves.",
             ]
         }
     ]

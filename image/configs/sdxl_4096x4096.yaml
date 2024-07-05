@@ -3,7 +3,7 @@ version: "sdxl1.0"
 
 diffusion:
   # pretrained_model_name_or_path: "stabilityai/stable-diffusion-xl-base-1.0"
-  pretrained_model_name_or_path: "stabilityai/stable-diffusion-xl-base-1.0"
+  pretrained_model_name_or_path: "cache/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b"
   guidance_scale: 7.5
   diffusion_steps: 50
   # target_height: [2048, 3072, 4096]

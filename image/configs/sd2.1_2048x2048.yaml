@@ -2,11 +2,12 @@ name: "StableDiffusion Ver_2.1_ High-Resolution Image Generation (512 -> 2K)"
 version: "sd2.1"
 
 diffusion:
-  pretrained_model_name_or_path: "stabilityai/stable-diffusion-2-1-base"
+  # pretrained_model_name_or_path: "stabilityai/stable-diffusion-2-1-base"
+  pretrained_model_name_or_path: "cache/models--stabilityai--stable-diffusion-2-1-base/snapshots/5ede9e4bf3e3fd1cb0ef2f7a3fff13ee514fdf06"
   guidance_scale: 7.5
   diffusion_steps: 50
-  target_height: [1024, 1536, 2048]
-  target_width: [1024, 1536, 2048]
+  target_height: 2048
+  target_width: 2048
 
   noising_steps: 15
   freeu: False
